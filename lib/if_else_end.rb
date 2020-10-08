@@ -1,7 +1,8 @@
-if <something that is either true or false>
-  if true 
-  puts "This code runs!"
-end
-if false
-  puts "This code does not run. You will not see this in IRB"
+current_time = Time.now
+current_time = current_time.to_i
+ 
+if current_time.even?
+  puts "Even!"
+else
+  puts "Odd!"
 end
